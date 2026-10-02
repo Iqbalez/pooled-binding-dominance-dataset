@@ -1,0 +1,10 @@
+Synthetic Pooled Binding Assay Panels data and documentation
+Copyright 2026 Iqbalez
+
+The generated dataset and its documentation are dedicated to the public domain
+under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+
+The data are wholly synthetic. They contain no patient, compound, protein,
+clinical, or laboratory measurements. Changes made for the Eris challenge:
+the generated panels are split into training and evaluation files, their IDs
+are anonymized, and evaluation winners are withheld from participant files.
