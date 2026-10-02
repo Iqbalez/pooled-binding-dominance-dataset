@@ -6,14 +6,15 @@
   "members": {
     "DATA_LICENSE.txt": "a69319751470e7bbd2fc928684fa410895720dd953d86fb5f9253469cb5b6502",
     "GENERATION_METADATA.json": "9564cea7420a8a41673b692b6a8bad0ed308692f29e97f37b0daf93e3d6e172b",
+    "GENERATOR_REQUIREMENTS.txt": "14fb115d8f757db5e6de26817df2f5f006f7513d1108be95786bd0fd66d8b059",
     "LICENSE-CODE": "e5bda43a9565e210f63bbe1e97fd3a869a098972caa4a1112798c5228ab5d20e",
-    "SOURCE_README.md": "eab3b1bd2c3703cca35306f002e7d7493c42c1c56d2f7176324329e45151370a",
+    "SOURCE_README.md": "e413c663d32034aa09dd36d3b071f7dd05afe2e5576cceb00fee76d6715e1d80",
     "generate_raw.py": "e88d1dcf4c8bdaa644653d26cf1737838554a2229e2e2e93255f20598ab24eff",
     "panels.jsonl": "41b528787ca3608378533a17a05354e2780a1edc0677e8c251c1948f6de51b43"
   },
   "note": "The raw archive is delivered through the Eris dataset upload. This manifest proves the exact source packet and archive bytes; it contains no private seed.",
   "panels": 2000,
-  "raw_archive_bytes": 709751,
+  "raw_archive_bytes": 710085,
   "raw_archive_name": "raw_dataset.zip",
-  "raw_archive_sha256": "68df77f3f22fd619401816a0d70f59a74da9e0d47d22411b4a76284dd2e59a34"
+  "raw_archive_sha256": "79da822c409e795d0dd817649359487a95d5f9f15bd5969b71c8086e4a1694ce"
 }

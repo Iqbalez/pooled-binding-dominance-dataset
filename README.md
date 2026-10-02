@@ -9,9 +9,11 @@ Source file inventory:
 - `generate_raw.py`: the exact synthetic data generator (MIT License)
 - `DATA_LICENSE.txt`: CC0 1.0 dedication for the generated data and documentation
 - `LICENSE-CODE`: MIT License for code
+- `GENERATOR_REQUIREMENTS.txt`: the exact NumPy version used for the frozen release
 - `README.md`: this source and provenance description
+- `FROZEN_MANIFEST.json`: SHA-256 hashes of the delivered raw archive and its seven members
 
-Generator dependency: Python 3.10 or later with NumPy. Example:
+The frozen raw data was generated with CPython 3.12.10 and NumPy 2.5.3. The generator accepts Python 3.10 or later with NumPy, but the pinned environment is recommended for exact replay. Example:
 
 ```sh
 python generate_raw.py --seed your-own-private-seed-at-least-32-characters --count 100 --out output
