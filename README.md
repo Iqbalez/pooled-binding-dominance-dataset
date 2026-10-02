@@ -17,4 +17,4 @@ Generator dependency: Python 3.10 or later with NumPy. Example:
 python generate_raw.py --seed your-own-private-seed-at-least-32-characters --count 100 --out output
 ```
 
-Original dataset source: https://github.com/Iqbalez/pooled-binding-dominance-dataset . The challenge raw archive is supplied with the dataset upload; this source repository carries the exact generator and licenses. A frozen raw-data manifest will be added with the release. No third-party experimental measurements or code are included.
+Original dataset source: https://github.com/Iqbalez/pooled-binding-dominance-dataset . The challenge raw archive is supplied with the dataset upload; this source repository carries the exact generator, licenses, and the frozen raw-archive hash in `FROZEN_MANIFEST.json`. No third-party experimental measurements or code are included.
